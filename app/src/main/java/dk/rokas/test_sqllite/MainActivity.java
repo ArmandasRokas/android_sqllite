@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 null               // The sort order
         );
         cursor.moveToNext();
-        System.out.println();
 
         double weight = cursor.getDouble(5);
 
